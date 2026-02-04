@@ -1,0 +1,35 @@
+# ===== Visual Studio =====
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== Build folders =====
+Debug/
+Release/
+x64/
+x86/
+out/
+build/
+
+# ===== CMake =====
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ===== Object files =====
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.a
+
+# ===== Logs =====
+*.log
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
