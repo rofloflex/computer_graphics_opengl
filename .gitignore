@@ -1,0 +1,54 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# CMake (если вдруг используешь)
+CMakeFiles/
+CMakeCache.txt
+
+# Компиляция
+*.obj
+*.o
+*.lo
+*.slo
+*.pch
+
+# Линковка
+*.lib
+*.a
+*.la
+
+# Исполняемые файлы
+*.exe
+*.out
+
+# Отладка
+*.pdb
+*.ilk
+
+# Временные файлы
+*.log
+*.tmp
+
+# OpenGL/ресурсы — НЕ игнорируем
+# *.glsl — НЕ добавлять сюда!
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python (если вдруг есть)
+__pycache__/
+*.pyc
