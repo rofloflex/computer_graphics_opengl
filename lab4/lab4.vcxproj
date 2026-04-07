@@ -77,10 +77,13 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>;$(SolutionDir)glfw-3.4.bin.WIN64\include;$(SolutionDir)include;$(SolutionDir)lab4\assimp\include;$(SolutionDir)lab4\assimp\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>;$(SolutionDir)glfw-3.4.bin.WIN64\lib-vc2022;$(SolutionDir)lab4\assimp</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -92,10 +95,13 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>;$(SolutionDir)glfw-3.4.bin.WIN64\include;$(SolutionDir)include;$(SolutionDir)lab4\assimp\include;$(SolutionDir)lab4\assimp\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>;$(SolutionDir)glfw-3.4.bin.WIN64\lib-vc2022;$(SolutionDir)lab4\assimp</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -105,12 +111,12 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\glfw-3.4.bin.WIN64\include;C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\include;C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\lab4\assimp\include;C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\lab4\assimp\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\glfw-3.4.bin.WIN64\include;C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\include;C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\lab4\assimp\include;C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\lab4\assimp\build\include;%(AdditionalIncludeDirectories);$(SolutionDir)glfw-3.4.bin.WIN64\include;$(SolutionDir)include;$(SolutionDir)lab4\assimp\include;$(SolutionDir)lab4\assimp\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\lab4\assimp;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\artem\Desktop\ИРНИТУ\Компьютерная графика\CG\lab4\lab4\assimp;%(AdditionalLibraryDirectories);$(SolutionDir)glfw-3.4.bin.WIN64\lib-vc2022;$(SolutionDir)lab4\assimp</AdditionalLibraryDirectories>
       <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -123,10 +129,13 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>;$(SolutionDir)glfw-3.4.bin.WIN64\include;$(SolutionDir)include;$(SolutionDir)lab4\assimp\include;$(SolutionDir)lab4\assimp\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>;$(SolutionDir)glfw-3.4.bin.WIN64\lib-vc2022;$(SolutionDir)lab4\assimp</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;assimp-vc143-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
